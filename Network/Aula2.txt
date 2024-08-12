@@ -1,0 +1,34 @@
+Aula 2 - Network Architect Solutions
+
+Rede de Computadores:
+Surgiu com a finalidade de trocar dados. 
+Arpanet é a primeira rede que surgiu nos EUA para o compartilhamento de dados na guerra fria.
+Arpanet: Rede Militar
+Internet: Rede Publica
+
+Criptografia: 
+	Cripto: Esconder
+	Grafia: Escrita
+
+Cifra de cesar foi o primeiro a começar o conceito de criptografia
+SHA256 é uma criptografia muito utilizada atualmente
+
+
+Wireshark: Analisa o trafego de uma rede
+
+Atualmente o termo mais atualizado é Rede de Comunicação ao inves de rede de computadores
+
+O foco dessa rede é em serviços, celulares dispositivos, dando origem a internet das coisas
+
+IOT: Internet of Things
+
+IPV4 e IPV6: É a identidade de todos os objetos conectados à internet
+
+DNS: Domain Main System
+Faz a conversão entre o nome dos dominios e o ip do site.
+
+Rede PAN (Personal Area Network):
+Fone de ouvido conectado no seu celular por exemplo, a conexao entre eles cria uma rede PAN
+
+Packet Tracer: É um ambiete para testar redes. É um Simulador de Redes
+
