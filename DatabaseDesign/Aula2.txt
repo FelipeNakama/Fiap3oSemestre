@@ -1,0 +1,61 @@
+Aula 2 - Database Design - 13/08/2024
+
+Banco de Dados (BD)
+	Representa uma coleção de dados relacionados
+		É um conjunto logico e ordenado de dados que possuem algum significado inerente;
+		Um BD é construido em atendimento a uma proposta especifica;
+		
+O que é uma transação em Bancos de Dados?
+	Transações sao um conjunto de varias operações em um BD pode ser visto pelo usuário como uma unica unidade
+		Ex: A transferencia de fundos de uma conta corrente para uma conta poupança é uma operação unica do ponto de vista do cliente, 
+		porem, dentro do sistema de banco de dados, ela envolve varias operações.
+	Essas operações, que formam uma unica unidade logica de trabalho sao chamadas de transações.
+	
+Um BD tem 4 propriedades (ACID):
+	Atomicidade, Consistencia, Isolamento, Durabilidade
+	Elas garantem a validade dos dados mesmo que ocorram erros durante o armazenamento em um servidor, sendo fundamentais para o processamento do Bando de Dados.
+	
+	Atomicidade:
+		Garante que as transações sejam indivisiveis.
+		A transação será executada totalmente ou nao será executada.
+		Ou suas operações sao confirmadas no banco de dados; ou todas suas operações sao desfeitas
+		O sistema deve voltar ao mesmo estado em que estava antes do inicio da transação
+		
+	Consistencia:
+		Garante que o banco de dados passará de uma forma consistente para outra forma consistente.
+		Uma transação de um BD para outro deve manter a integridade dos dados.
+		
+	Isolamento:
+		A transação nao deve ser interferida por nenhuma outra transação concorrente
+		Tudo deve se passar como se todos os recursos estivessem disponiveis
+		
+	Durabilidade:
+		Garante que o que foi salvo não será mais perdido
+		Os efeitos de uma transação confirmada nao podem ser desfeitos
+		
+Sistema de Gerenciamento de Banco de Dados (SBD)
+	Ou DBMS - Database Manaement System
+	É uma coleção de programas que permite criar estruturas, mantem os dados, alem de permitir a extração das informações de maneira rapida e segura.
+	
+
+Exemplificação de um Sistema de Banco de Dados
+	
+	Usuários/Programadores -> Programas de Aplicações / Consultas (Queries) -> 
+	SGBD { (Programas para Processamento de consultas / Gerenciamento de Dados) -> (Software para Acesso aos dados Armazenados) } ->
+	<-> Definição dos Dados
+	<-> Banco de Dados Armazenados
+	
+Principais Caracteristicas de um SGBD	
+	Controle de redundancia:
+	Compartilhamento de dados
+	Controle de acesso
+	Esquematização
+	Backup ou Copia de segurança
+	
+Vantagens de se utilizar um SGBD
+	Integridade dos dados
+	Segurança de acesso aos dados
+	Atomicidade nas transaçõesConcentração dos dados em um repositório, geralmente em um servidor de dados
+	Independencia de linguagem de programação
+	Impoe regras de utilização para toda e qualquer aplicação que se conectar ao banco de dados.
+	
